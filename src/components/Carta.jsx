@@ -16,6 +16,11 @@ export default function Carta() {
           Esta app es tuya. Te amo, mi amor, nena hermosa, próxima novia dentro de poco. Lo siento
           por todo.
         </p>
+        <p>
+          Esto era una tonta sorpresa hecha con mis manos. No soy bueno para hacer cartas, pero sí
+          uso el coco para programar y deployar. Esto es tuyo ahora; más que una sorpresa, es una
+          ofrenda de perdón. Te amo, nena bella.
+        </p>
         <p className="carta-firma">Mario</p>
       </article>
     </section>
