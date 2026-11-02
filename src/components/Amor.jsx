@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { DIBUJOS, tipoAzar } from "../dibujos.js";
 import Carta from "./Carta.jsx";
 import Galeria from "./Galeria.jsx";
+import Juntos from "./Juntos.jsx";
 
 const FRASES = [
   "eres mi persona favorita",
@@ -107,6 +108,7 @@ export default function Amor({ lluvia, onVolver }) {
           <p className="frase" style={{ opacity: fraseVisible ? 1 : 0 }}>
             {frase}
           </p>
+          <Juntos />
         </div>
         <div className="barra">
           {FICHAS.map((f) => (
