@@ -61,6 +61,10 @@ export default function Juntos() {
 
   return (
     <div className="juntos">
+      <figure className="juntos-foto">
+        <img src="/fotos/primera-noche.jpeg" alt="Mario y ella la noche del 30 de octubre" />
+        <figcaption>la noche que empezó todo</figcaption>
+      </figure>
       <p className="juntos-titulo">Llevamos juntos</p>
       <div className="juntos-grid">
         {t.partes.map((p) => (

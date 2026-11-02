@@ -177,6 +177,31 @@ button:focus-visible { outline: 3px dashed var(--rosa-fuerte); outline-offset: 5
   max-width: 560px;
   width: 100%;
 }
+.juntos-foto {
+  width: min(200px, 52vw);
+  margin: -2px auto 14px;
+  background: var(--papel);
+  padding: 8px 8px 4px;
+  border-radius: 4px;
+  box-shadow: 0 12px 24px rgba(106, 24, 56, .2);
+  transform: rotate(-3deg);
+}
+.juntos-foto img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 45%;
+  border-radius: 2px;
+  background: var(--fondo-2);
+}
+.juntos-foto figcaption {
+  font-family: var(--font-mano);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--rosa-fuerte);
+  padding-top: 4px;
+}
 .juntos-titulo {
   margin: 0 0 10px;
   font-size: 13px;
